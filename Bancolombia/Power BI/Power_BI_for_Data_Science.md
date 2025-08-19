@@ -70,7 +70,7 @@ Supongamos que cargamos `ventas_powerbi.csv`:
 * Columna: PrecioPromedio = MontoTotal / Cantidad.
 
 #### Ejemplo 4 – Filtrar datos
-* Solo mostrar transacciones de 2024 en adelante.
+* Solo mostrar transacciones de 2023 en adelante.
 
 ### Ejercicio práctico
 Usa el archivo `ventas_powerbi.csv` en Power BI Desktop y sigue:
@@ -83,5 +83,96 @@ Usa el archivo `ventas_powerbi.csv` en Power BI Desktop y sigue:
     ```
     PrecioPromedio = MontoTotal / Cantidad
     ```
-    * Filtra para que solo aparezcan registros de 2024.
+    * Filtra para que solo aparezcan registros de 2023.
 3. Aplica los cambios y regresa a Power BI.
+
+
+## 3. Creación de visualizaciones y dashboards interactivos en Power BI.
+Una vez que los datos están limpios y cargados en Power BI, pasamos a lo más poderoso: La visualización.
+
+En Power BI puede crear:
+* Gráficos de barras y columnas → comparar cantidades.
+* Gráficos de líneas → analizar tendencias en el tiempo.
+* Mapas → mostrar datos geográficos (por región, ciudad, país).
+* Tablas y matrices → detalle de transacciones.
+* Tarjetas → indicadores clave (KPI), como ventas totales o número de clientes.
+* Slicers (segmentadores) → filtros interactivos (por año, región, producto).
+
+👉 Lo importante es combinar varias visualizaciones en un dashboard interactivo, donde el usuario pueda filtrar, explorar y entender los datos fácilmente.
+
+### Ejemplos
+Supongamos que cargamos el dataset ya transformado.
+Podemos crear un dashboard con:
+1. Tarjetas:
+   * Ventas totales (`MontoTotal`).
+   * Total de productos vendidos (`Cantidad`).
+2. Gráfico de barras:
+   * Ventas totales por región (`Región` en eje, `MontoTotal` como valor).
+3. Gráfico de líneas (serie de tiempo):
+   * Ventas por mes (`Fecha` en el eje, `MontoTotal` como valor).
+4. Mapa:
+   * Ventas por región (`Región` en mapa).
+5. Slicer (filtro):
+   * Un segmentador por `Producto`.
+
+### Ejercicio práctico
+1. Abre tu archivo ventas_powerbi.csv en Power BI.
+2. Realiza las siguientes visualizaciones:
+   * Una tarjeta que muestre el total de ventas (`MontoTotal`).
+   * Un gráfico de columnas con las ventas por `Región`.
+   * Un gráfico de líneas que muestre cómo han evolucionado las ventas a lo largo del tiempo (`Fecha` vs `MontoTotal`).
+   * Agrega un slicer para filtrar por `Producto`.
+3. Combina todo en una sola página para tener un dashboard interactivo.
+
+## 4. DAX básico (Data Analysis Expressions.)
+DAX es el lenguaje de fórmulas en Power BI, similar a Excel, pero diseñado para trabajar con grandes volúmenes de datos y relaciones entre tablas.
+Se usa principalmente para:
+* Medidas (Measures): cálculos que se hacen sobre los datos (ejemplo: total de ventas, promedio, % de crecimiento).
+* Columnas calculadas: nuevos campos creados a partir de columnas existentes.
+* Tablas calculadas: cuando se necesitan subconjuntos de datos derivados.
+Algunas funciones DAX más usadas:
+* `SUM()`: suma de valores.
+* `AVERAGE()`: promedio.
+* `COUNT()` / `DISTINCTCOUNT()`: contar registros o valores únicos.
+* `CALCULATE()`: aplicar filtros sobre una medida.
+* `IF()` / `SWITCH()`: condiciones.
+* `RELATED()`: traer valores de otra tabla relacionada.
+
+### Ejemplo
+Supongamos que tenemos nuestra tabla Ventas con columnas:
+* `Fecha`, `Región`, `Producto`, `Cantidad`, `MontoTotal`.
+Podemos crear estas medidas en Power BI:
+1. Ventas Totales:
+   ```
+   Ventas Totales = SUM(Ventas[MontoTotal])
+   ```
+2. Cantidad Total de Productos Vendidos
+   ```
+   Cantidad Vendida = SUM(Ventas[Cantidad])
+   ```
+3. Promedio de Venta por Transacción
+   ```
+   Promedio Venta = AVERAGE(Ventas[MontoTotal])
+   ```
+4. Ventas en 2023 únicamente
+   ```
+   Ventas 2023 = CALCULATE(
+    SUM(Ventas[MontoTotal]),
+    YEAR(Ventas[Fecha]) = 2023
+   )
+   ```
+5. Clasificación de ventas según monto (columna calculada)
+   ```
+   CategoriaVenta = IF(Ventas[MontoTotal] > 5000, "Alta", "Baja")
+   ```
+
+### Ejercicio práctico
+1. Crea una medida de ventas totales.
+2. Crea una medida de cantidad total de productos vendidos.
+3. Crea una medida de promedio de venta por transacción.
+4. Crea un slicer de año y prueba la medida filtrando las ventas de 2023 y 2023.
+Crea una columna calculada que clasifique las transacciones en:
+   * Alta si el monto total > 5000.
+   * Media si está entre 2000 y 5000.
+   * Baja si es menor a 2000.
+
