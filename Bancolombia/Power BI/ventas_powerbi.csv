@@ -1,0 +1,301 @@
+TransactionID,Date,Region,Product,Quantity,UnitPrice,TotalAmount
+1,2023-01-01,Norte,Préstamo,4,478.88,1915.52
+2,2023-01-02,Sur,Inversión,5,198.84,994.2
+3,2023-01-03,Norte,Inversión,3,298.74,896.22
+4,2023-01-04,Norte,Hipoteca,5,307.53,1537.65
+5,2023-01-05,Norte,Inversión,5,491.15,2455.75
+6,2023-01-06,,Hipoteca,2,83.91,167.82
+7,2023-01-07,Norte,Tarjeta de Crédito,3,187.56,562.68
+8,2023-01-08,Oeste,Cuenta de Ahorros,3,135.91,407.73
+9,2023-01-09,Este,Préstamo,3,170.81,512.43
+10,2023-01-10,Norte,Cuenta de Ahorros,5,268.38,1341.9
+11,2023-01-11,Sur,Tarjeta de Crédito,4,217.71,870.84
+12,2023-01-12,Este,Préstamo,3,227.61,682.83
+13,2023-01-13,Sur,Préstamo,5,429.9,2149.5
+14,2023-01-14,Este,Hipoteca,2,468.51,937.02
+15,2023-01-15,Oeste,Hipoteca,4,81.69,326.76
+16,2023-01-16,Este,Cuenta de Ahorros,2,144.01,288.02
+17,2023-01-17,Norte,Hipoteca,4,352.01,1408.04
+18,2023-01-18,Norte,Cuenta de Ahorros,5,211.39,1056.95
+19,2023-01-19,Oeste,Inversión,1,164.37,164.37
+20,2023-01-20,Este,Préstamo,4,182.88,731.52
+21,2023-01-21,Este,Hipoteca,2,195.15,390.3
+22,2023-01-22,Norte,Préstamo,5,431.9,2159.5
+23,2023-01-23,,Cuenta de Ahorros,4,111.48,445.92
+24,2023-01-24,Este,Hipoteca,1,369.01,369.01
+25,2023-01-25,Sur,Hipoteca,1,298.77,298.77
+26,2023-01-26,Oeste,Tarjeta de Crédito,3,183.43,550.29
+27,2023-01-27,Este,Inversión,3,238.9,716.7
+28,2023-01-28,Este,Préstamo,2,165.29,330.58
+29,2023-01-29,Este,Hipoteca,4,325.18,1300.72
+30,2023-01-30,Norte,Tarjeta de Crédito,4,86.72,346.88
+31,2023-01-31,Sur,Hipoteca,3,52.33,156.99
+32,2023-02-01,Sur,Préstamo,4,332.55,1330.2
+33,2023-02-02,Oeste,Cuenta de Ahorros,4,137.42,549.68
+34,2023-02-03,Sur,Tarjeta de Crédito,1,81.92,81.92
+35,2023-02-04,Norte,Cuenta de Ahorros,3,228.55,685.65
+36,2023-02-05,Norte,Inversión,5,72.85,364.25
+37,2023-02-06,Oeste,Tarjeta de Crédito,3,448.98,1346.94
+38,2023-02-07,Sur,Cuenta de Ahorros,5,62.43,312.15
+39,2023-02-08,Este,Tarjeta de Crédito,1,310.49,310.49
+40,2023-02-09,Oeste,Tarjeta de Crédito,2,247.31,494.62
+41,2023-02-10,Oeste,Tarjeta de Crédito,4,352.41,1409.64
+42,2023-02-11,Sur,Hipoteca,1,197.67,197.67
+43,2023-02-12,Este,Tarjeta de Crédito,4,119.77,479.08
+44,2023-02-13,Oeste,Tarjeta de Crédito,2,491.83,983.66
+45,2023-02-14,Oeste,Cuenta de Ahorros,2,427.52,855.04
+46,2023-02-15,Sur,Hipoteca,1,437.18,437.18
+47,2023-02-16,Norte,Hipoteca,2,162.61,325.22
+48,2023-02-17,Norte,Cuenta de Ahorros,5,67.48,337.4
+49,2023-02-18,Sur,Hipoteca,2,186.47,372.94
+50,2023-02-19,Oeste,Inversión,4,291.69,1166.76
+51,2023-02-20,Oeste,Tarjeta de Crédito,4,196.99,787.96
+52,2023-02-21,Oeste,Tarjeta de Crédito,4,422.54,1690.16
+53,2023-02-22,Norte,Préstamo,4,172.19,688.76
+54,2023-02-23,Norte,Inversión,5,484.36,2421.8
+55,2023-02-24,Este,Préstamo,3,255.77,767.31
+56,2023-02-25,Este,Hipoteca,1,428.91,428.91
+57,2023-02-26,Oeste,Tarjeta de Crédito,4,137.47,549.88
+58,2023-02-27,Norte,Hipoteca,2,235.11,470.22
+59,2023-02-28,Este,Tarjeta de Crédito,4,364.78,1459.12
+60,2023-03-01,Sur,Inversión,2,112.26,224.52
+61,2023-03-02,Norte,Cuenta de Ahorros,2,109.74,219.48
+62,2023-03-03,Este,Préstamo,4,486.29,1945.16
+63,2023-03-04,Sur,Hipoteca,5,371.57,1857.85
+64,2023-03-05,Sur,Préstamo,2,68.48,136.96
+65,2023-03-06,Norte,Hipoteca,2,229.47,458.94
+66,2023-03-07,Oeste,Préstamo,4,245.08,980.32
+67,2023-03-08,,Préstamo,2,384.82,769.64
+68,2023-03-09,Este,Préstamo,2,162.89,325.78
+69,2023-03-10,Sur,Hipoteca,4,132.95,531.8
+70,2023-03-11,Norte,Hipoteca,4,86.39,345.56
+71,2023-03-12,Oeste,Cuenta de Ahorros,1,242.74,242.74
+72,2023-03-13,Sur,Inversión,5,359.82,1799.1
+73,2023-03-14,Oeste,Inversión,5,76.19,380.95
+74,2023-03-15,Sur,Cuenta de Ahorros,2,461.85,923.7
+75,2023-03-16,Oeste,Hipoteca,5,249.06,1245.3
+76,2023-03-17,Sur,,2,157.9,315.8
+77,2023-03-18,Oeste,Inversión,1,92.24,92.24
+78,2023-03-19,Este,Tarjeta de Crédito,4,132.29,529.16
+79,2023-03-20,Oeste,Hipoteca,4,470.58,1882.32
+80,2023-03-21,Sur,Tarjeta de Crédito,4,337.22,1348.88
+81,2023-03-22,Norte,Inversión,5,282.51,1412.55
+82,2023-03-23,Sur,Préstamo,1,345.7,345.7
+83,2023-03-24,Norte,Cuenta de Ahorros,5,246.05,1230.25
+84,2023-03-25,Norte,Préstamo,5,378.52,1892.6
+85,2023-03-26,Norte,Cuenta de Ahorros,1,71.47,71.47
+86,2023-03-27,Norte,Cuenta de Ahorros,1,304.72,304.72
+87,2023-03-28,Este,Cuenta de Ahorros,1,121.39,121.39
+88,2023-03-29,Sur,Inversión,1,104.07,104.07
+89,2023-03-30,Oeste,Tarjeta de Crédito,4,203.85,815.4
+90,2023-03-31,Oeste,Inversión,3,91.31,273.93
+91,2023-04-01,Sur,Cuenta de Ahorros,3,92.37,277.11
+92,2023-04-02,Oeste,Cuenta de Ahorros,1,190.14,190.14
+93,2023-04-03,Oeste,Hipoteca,3,490.78,1472.34
+94,2023-04-04,Norte,,3,128.9,386.7
+95,2023-04-05,Norte,Inversión,1,57.72,57.72
+96,2023-04-06,Este,Cuenta de Ahorros,3,393.51,1180.53
+97,2023-04-07,Norte,Tarjeta de Crédito,5,413.11,2065.55
+98,2023-04-08,Sur,Hipoteca,2,205.84,411.68
+99,2023-04-09,Sur,Tarjeta de Crédito,2,259.1,518.2
+100,2023-04-10,Este,Inversión,1,342.4,342.4
+101,2023-04-11,Norte,Cuenta de Ahorros,4,71.63,286.52
+102,2023-04-12,Norte,Tarjeta de Crédito,1,477.12,477.12
+103,2023-04-13,Norte,Hipoteca,4,449.01,1796.04
+104,2023-04-14,Sur,Inversión,2,167.4,334.8
+105,2023-04-15,Oeste,Cuenta de Ahorros,1,56.89,56.89
+106,2023-04-16,Oeste,Hipoteca,5,470.05,2350.25
+107,2023-04-17,Sur,Préstamo,3,275.47,826.41
+108,2023-04-18,Oeste,Tarjeta de Crédito,4,292.72,1170.88
+109,2023-04-19,Oeste,Tarjeta de Crédito,3,357.78,1073.34
+110,2023-04-20,Oeste,Tarjeta de Crédito,3,327.13,981.39
+111,2023-04-21,Este,Tarjeta de Crédito,1,474.75,474.75
+112,2023-04-22,Norte,Préstamo,3,474.91,1424.73
+113,2023-04-23,Norte,Inversión,5,440.24,2201.2
+114,2023-04-24,Norte,Inversión,3,336.38,1009.14
+115,2023-04-25,Oeste,Cuenta de Ahorros,1,410.43,410.43
+116,2023-04-26,Sur,Préstamo,5,354.73,1773.65
+117,2023-04-27,Norte,Préstamo,2,308.02,616.04
+118,2023-04-28,Norte,Hipoteca,3,107.83,323.49
+119,2023-04-29,Sur,Préstamo,1,415.04,415.04
+120,2023-04-30,Sur,Inversión,2,419.29,838.58
+121,2023-05-01,Norte,Cuenta de Ahorros,2,331.67,663.34
+122,2023-05-02,Oeste,Hipoteca,4,419.19,1676.76
+123,2023-05-03,Este,Tarjeta de Crédito,5,343.17,1715.85
+124,2023-05-04,Sur,Inversión,3,143.01,429.03
+125,2023-05-05,Este,Hipoteca,1,173.28,173.28
+126,2023-05-06,Oeste,Cuenta de Ahorros,4,146.57,586.28
+127,2023-05-07,Este,Cuenta de Ahorros,5,219.77,1098.85
+128,2023-05-08,Norte,Inversión,4,67.53,270.12
+129,2023-05-09,,Hipoteca,5,328.21,1641.05
+130,2023-05-10,Norte,Inversión,5,201.45,1007.25
+131,2023-05-11,Sur,Préstamo,3,345.08,1035.24
+132,2023-05-12,Sur,Préstamo,5,223.43,1117.15
+133,2023-05-13,Norte,Cuenta de Ahorros,4,356.73,1426.92
+134,2023-05-14,Este,,5,203.28,1016.4
+135,2023-05-15,Oeste,Cuenta de Ahorros,3,167.31,501.93
+136,2023-05-16,Este,Préstamo,3,273.22,819.66
+137,2023-05-17,Norte,Tarjeta de Crédito,4,361.8,1447.2
+138,2023-05-18,Este,Hipoteca,2,206.75,413.5
+139,2023-05-19,Norte,Tarjeta de Crédito,2,471.49,942.98
+140,2023-05-20,Sur,Cuenta de Ahorros,5,67.63,338.15
+141,2023-05-21,Norte,Cuenta de Ahorros,1,238.08,238.08
+142,2023-05-22,Sur,,5,485.41,2427.05
+143,2023-05-23,Sur,Préstamo,4,296.59,1186.36
+144,2023-05-24,Sur,Inversión,4,240.56,962.24
+145,2023-05-25,Este,Cuenta de Ahorros,4,305.83,1223.32
+146,2023-05-26,Este,Inversión,4,309.17,1236.68
+147,2023-05-27,Norte,Hipoteca,4,379.24,1516.96
+148,2023-05-28,Oeste,Inversión,3,107.46,322.38
+149,2023-05-29,Norte,Cuenta de Ahorros,2,162.51,325.02
+150,2023-05-30,,Tarjeta de Crédito,4,311.24,1244.96
+151,2023-05-31,Este,Préstamo,1,440.2,440.2
+152,2023-06-01,Oeste,Inversión,1,302.84,302.84
+153,2023-06-02,Oeste,Tarjeta de Crédito,1,157.37,157.37
+154,2023-06-03,Norte,Tarjeta de Crédito,1,355.93,355.93
+155,2023-06-04,Sur,Tarjeta de Crédito,3,382.96,1148.88
+156,2023-06-05,Este,Inversión,1,157.21,157.21
+157,2023-06-06,Sur,Tarjeta de Crédito,4,219.98,879.92
+158,2023-06-07,Norte,Tarjeta de Crédito,5,290.45,1452.25
+159,2023-06-08,Norte,Inversión,1,273.45,273.45
+160,2023-06-09,Sur,Préstamo,3,225.33,675.99
+161,2023-06-10,Norte,Hipoteca,3,183.94,551.82
+162,2023-06-11,Oeste,Préstamo,1,94.99,94.99
+163,2023-06-12,Sur,Tarjeta de Crédito,5,74.07,370.35
+164,2023-06-13,Sur,Cuenta de Ahorros,1,481.34,481.34
+165,2023-06-14,Sur,Préstamo,3,431.21,1293.63
+166,2023-06-15,Norte,Hipoteca,2,209.71,419.42
+167,2023-06-16,Este,Cuenta de Ahorros,4,480.56,1922.24
+168,2023-06-17,Oeste,Cuenta de Ahorros,3,354.55,1063.65
+169,2023-06-18,Sur,Tarjeta de Crédito,1,267.13,267.13
+170,2023-06-19,Norte,Cuenta de Ahorros,4,271.86,1087.44
+171,2023-06-20,Norte,Hipoteca,1,87.48,87.48
+172,2023-06-21,Sur,Cuenta de Ahorros,1,91.27,91.27
+173,2023-06-22,Oeste,Hipoteca,2,321.1,642.2
+174,2023-06-23,Sur,Cuenta de Ahorros,4,299.17,1196.68
+175,2023-06-24,Sur,Cuenta de Ahorros,4,145.73,582.92
+176,2023-06-25,Este,Préstamo,2,475.79,951.58
+177,2023-06-26,Este,Cuenta de Ahorros,3,401.58,1204.74
+178,2023-06-27,Oeste,Cuenta de Ahorros,1,101.06,101.06
+179,2023-06-28,Este,Hipoteca,5,468.92,2344.6
+180,2023-06-29,Norte,Inversión,1,488.41,488.41
+181,2023-06-30,Este,,1,498.17,498.17
+182,2023-07-01,Este,Cuenta de Ahorros,3,75.14,225.42
+183,2023-07-02,,Hipoteca,1,381.67,381.67
+184,2023-07-03,Este,Tarjeta de Crédito,2,295.66,591.32
+185,2023-07-04,Este,Cuenta de Ahorros,2,367.62,735.24
+186,2023-07-05,Norte,Inversión,4,485.89,1943.56
+187,2023-07-06,Sur,Préstamo,5,359.61,1798.05
+188,2023-07-07,Oeste,Inversión,1,426.63,426.63
+189,2023-07-08,,Préstamo,1,440.09,440.09
+190,2023-07-09,Sur,Préstamo,3,427.32,1281.96
+191,2023-07-10,Norte,Tarjeta de Crédito,2,241.74,483.48
+192,2023-07-11,Este,Cuenta de Ahorros,5,150.16,750.8
+193,2023-07-12,Norte,,4,228.49,913.96
+194,2023-07-13,Este,Préstamo,2,451.35,902.7
+195,2023-07-14,Oeste,Inversión,4,115.97,463.88
+196,2023-07-15,Este,Cuenta de Ahorros,3,281.0,843.0
+197,2023-07-16,Sur,Préstamo,3,154.95,464.85
+198,2023-07-17,Oeste,Inversión,1,311.59,311.59
+199,2023-07-18,Sur,Inversión,5,438.41,2192.05
+200,2023-07-19,Este,Inversión,4,446.16,1784.64
+201,2023-07-20,Norte,Cuenta de Ahorros,2,156.51,313.02
+202,2023-07-21,Sur,Inversión,3,458.46,1375.38
+203,2023-07-22,Este,Inversión,1,316.35,316.35
+204,2023-07-23,Oeste,Cuenta de Ahorros,1,207.6,207.6
+205,2023-07-24,Oeste,Préstamo,4,368.68,1474.72
+206,2023-07-25,Sur,Préstamo,3,266.75,800.25
+207,2023-07-26,Este,Cuenta de Ahorros,5,220.09,1100.45
+208,2023-07-27,Este,Hipoteca,3,367.29,1101.87
+209,2023-07-28,Sur,Cuenta de Ahorros,4,161.93,647.72
+210,2023-07-29,Sur,,4,198.61,794.44
+211,2023-07-30,Sur,Cuenta de Ahorros,3,245.5,736.5
+212,2023-07-31,,Inversión,4,164.16,656.64
+213,2023-08-01,Oeste,Inversión,3,232.34,697.02
+214,2023-08-02,Norte,Préstamo,2,307.16,614.32
+215,2023-08-03,Sur,Hipoteca,3,383.44,1150.32
+216,2023-08-04,Oeste,Hipoteca,3,395.24,1185.72
+217,2023-08-05,Sur,Hipoteca,4,420.26,1681.04
+218,2023-08-06,Norte,Tarjeta de Crédito,4,384.9,1539.6
+219,2023-08-07,Norte,Cuenta de Ahorros,1,356.47,356.47
+220,2023-08-08,Sur,Inversión,1,156.88,156.88
+221,2023-08-09,Oeste,Tarjeta de Crédito,2,230.1,460.2
+222,2023-08-10,Sur,Tarjeta de Crédito,1,264.97,264.97
+223,2023-08-11,Norte,Cuenta de Ahorros,3,87.3,261.9
+224,2023-08-12,Oeste,Préstamo,4,287.77,1151.08
+225,2023-08-13,Este,Préstamo,1,246.35,246.35
+226,2023-08-14,Oeste,Inversión,1,410.95,410.95
+227,2023-08-15,Oeste,Hipoteca,2,490.06,980.12
+228,2023-08-16,Oeste,Préstamo,2,300.2,600.4
+229,2023-08-17,Oeste,Tarjeta de Crédito,3,195.21,585.63
+230,2023-08-18,Sur,Hipoteca,4,69.53,278.12
+231,2023-08-19,Este,Inversión,2,466.09,932.18
+232,2023-08-20,Oeste,,1,463.6,463.6
+233,2023-08-21,Este,Cuenta de Ahorros,4,163.85,655.4
+234,2023-08-22,Este,Préstamo,4,362.94,1451.76
+235,2023-08-23,Este,Tarjeta de Crédito,1,83.95,83.95
+236,2023-08-24,Norte,Inversión,2,124.8,249.6
+237,2023-08-25,Sur,Inversión,1,147.56,147.56
+238,2023-08-26,Sur,Inversión,4,182.52,730.08
+239,2023-08-27,Norte,Tarjeta de Crédito,5,498.12,2490.6
+240,2023-08-28,Este,Cuenta de Ahorros,5,363.62,1818.1
+241,2023-08-29,Oeste,Préstamo,3,222.89,668.67
+242,2023-08-30,Oeste,Hipoteca,1,381.7,381.7
+243,2023-08-31,Norte,Tarjeta de Crédito,1,461.86,461.86
+244,2023-09-01,Oeste,Préstamo,3,481.42,1444.26
+245,2023-09-02,Este,Hipoteca,3,76.04,228.12
+246,2023-09-03,Oeste,Hipoteca,3,227.53,682.59
+247,2023-09-04,Oeste,Préstamo,4,98.04,392.16
+248,2023-09-05,Sur,Préstamo,1,201.05,201.05
+249,2023-09-06,Este,Préstamo,4,126.36,505.44
+250,2023-09-07,Norte,Hipoteca,3,341.08,1023.24
+251,2023-09-08,Oeste,,1,224.72,224.72
+252,2023-09-09,Oeste,Préstamo,4,153.23,612.92
+253,2023-09-10,Norte,Hipoteca,4,169.67,678.68
+254,2023-09-11,Norte,Préstamo,3,212.16,636.48
+255,2023-09-12,Oeste,Tarjeta de Crédito,1,166.98,166.98
+256,2023-09-13,Oeste,Inversión,3,253.96,761.88
+257,2023-09-14,Este,Préstamo,1,64.54,64.54
+258,2023-09-15,Sur,Tarjeta de Crédito,5,175.89,879.45
+259,2023-09-16,Este,Tarjeta de Crédito,2,235.04,470.08
+260,2023-09-17,Oeste,Cuenta de Ahorros,2,321.25,642.5
+261,2023-09-18,Oeste,Tarjeta de Crédito,2,171.93,343.86
+262,2023-09-19,Norte,Inversión,3,109.93,329.79
+263,2023-09-20,Norte,Tarjeta de Crédito,5,84.29,421.45
+264,2023-09-21,Este,Préstamo,1,473.24,473.24
+265,2023-09-22,Norte,Tarjeta de Crédito,4,237.49,949.96
+266,2023-09-23,Norte,Hipoteca,1,311.52,311.52
+267,2023-09-24,Sur,Tarjeta de Crédito,4,463.63,1854.52
+268,2023-09-25,Norte,Cuenta de Ahorros,1,87.24,87.24
+269,2023-09-26,Sur,Cuenta de Ahorros,5,444.5,2222.5
+270,2023-09-27,Norte,Cuenta de Ahorros,4,298.21,1192.84
+271,2023-09-28,Sur,Cuenta de Ahorros,3,124.18,372.54
+272,2023-09-29,Este,Tarjeta de Crédito,1,235.06,235.06
+273,2023-09-30,Sur,Préstamo,1,399.92,399.92
+274,2023-10-01,Norte,Inversión,4,266.17,1064.68
+275,2023-10-02,Sur,Hipoteca,3,493.38,1480.14
+276,2023-10-03,Norte,Inversión,3,219.53,658.59
+277,2023-10-04,Este,Hipoteca,5,387.31,1936.55
+278,2023-10-05,Oeste,Cuenta de Ahorros,3,226.85,680.55
+279,2023-10-06,Sur,Cuenta de Ahorros,3,423.12,1269.36
+280,2023-10-07,Sur,Tarjeta de Crédito,3,306.09,918.27
+281,2023-10-08,Este,Hipoteca,2,78.58,157.16
+282,2023-10-09,Norte,Préstamo,5,66.57,332.85
+283,2023-10-10,Norte,Préstamo,1,110.23,110.23
+284,2023-10-11,Oeste,Cuenta de Ahorros,4,56.15,224.6
+285,2023-10-12,Norte,Tarjeta de Crédito,1,83.91,83.91
+286,2023-10-13,Este,Inversión,5,361.27,1806.35
+287,2023-10-14,,Inversión,4,290.46,1161.84
+288,2023-10-15,Oeste,Cuenta de Ahorros,5,387.46,1937.3
+289,2023-10-16,Este,Tarjeta de Crédito,3,460.92,1382.76
+290,2023-10-17,Oeste,Tarjeta de Crédito,4,313.32,1253.28
+291,2023-10-18,Oeste,Inversión,3,376.75,1130.25
+292,2023-10-19,Este,Hipoteca,1,390.69,390.69
+293,2023-10-20,Oeste,Hipoteca,1,220.03,220.03
+294,2023-10-21,Este,Tarjeta de Crédito,4,158.49,633.96
+295,2023-10-22,Sur,Cuenta de Ahorros,4,142.27,569.08
+296,2023-10-23,Norte,Tarjeta de Crédito,5,163.15,815.75
+297,2023-10-24,Oeste,Hipoteca,5,173.63,868.15
+298,2023-10-25,Oeste,Tarjeta de Crédito,3,143.25,429.75
+299,2023-10-26,Oeste,Préstamo,4,445.2,1780.8
+300,2023-10-27,Oeste,Cuenta de Ahorros,1,390.65,390.65
