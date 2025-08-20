@@ -170,9 +170,34 @@ Podemos crear estas medidas en Power BI:
 1. Crea una medida de ventas totales.
 2. Crea una medida de cantidad total de productos vendidos.
 3. Crea una medida de promedio de venta por transacción.
-4. Crea un slicer de año y prueba la medida filtrando las ventas de 2023 y 2023.
+4. Crea un slicer de año y prueba la medida filtrando cada mes.
 Crea una columna calculada que clasifique las transacciones en:
    * Alta si el monto total > 5000.
    * Media si está entre 2000 y 5000.
    * Baja si es menor a 2000.
 
+
+## Mini-Reto
+Con el dataset `supermarket_sales.csv`:
+1. Conectar Power BI al CSV generado.
+2. En Power Query:
+   * Verifica tipos de datos.
+   * Remueve duplicados si hay.
+   * Asegúrate de que `Date` sea tipo fecha.
+3. En Power BI Visuals:
+   * Gráfico de ventas por región.
+   * Gráfico de ventas por categoría de producto.
+   * Línea de tendencia de ventas mensuales.
+   * Tabla con ventas por tienda.
+4. En DAX:
+   * Medida: `Ventas Totales = SUM(Ventas[TotalAmount])`.
+   * Medida: `Promedio Ticket = AVERAGE(Ventas[TotalAmount])`.
+   * Medida: `Cantidad Vendida = SUM(Ventas[Quantity])`.
+   * Columna calculada: Clasificación de venta
+      ```
+      Clasificacion = 
+      IF(Ventas[TotalAmount] > 8000, "Alta",
+         IF(Ventas[TotalAmount] > 3000, "Media","Baja")
+      )
+      ```
+   * Medida: % participación de cada región.
