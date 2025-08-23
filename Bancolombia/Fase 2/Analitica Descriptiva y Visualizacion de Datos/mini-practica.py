@@ -7,6 +7,7 @@ import random
 listNumbers = [random.uniform(50,500) for _ in range(15)]
 # storage in a dataframe
 df = pd.DataFrame(listNumbers, columns=['Numbers'])
+print(df)
 
 # Descriptive analytic
 ## middle trend measures-> mean, median, mode.
