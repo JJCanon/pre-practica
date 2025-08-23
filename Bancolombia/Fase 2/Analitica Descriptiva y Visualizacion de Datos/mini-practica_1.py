@@ -20,7 +20,7 @@ variance = df['Numbers'].var()
 standar_desviation = df['Numbers'].std()
 coefficient_of_variation = standar_desviation / mean
 q1 = df['Numbers'].quantile(0.25)
-q2 = df['Numbers'].quantile(0.75)
+q3 = df['Numbers'].quantile(0.75)
 
 print(f"Mean: {mean}\n",
       f"Median: {median}\n",
@@ -29,5 +29,5 @@ print(f"Mean: {mean}\n",
       f"Standar desviation: {standar_desviation}\n",
       f"Coefficient of variation: {coefficient_of_variation}\n",
       f"Q1: {q1}\n",
-      f"Q2: {q2}\n"
+      f"Q3: {q3}\n"
       )

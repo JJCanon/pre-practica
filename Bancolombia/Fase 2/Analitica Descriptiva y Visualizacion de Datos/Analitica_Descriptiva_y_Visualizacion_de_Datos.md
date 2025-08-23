@@ -89,3 +89,68 @@ Observa cómo la **media** está muy **inflada** por el valor extremo de 1500, m
 1. Crea una lista en Python con **15 números aleatorios entre 50 y 500**.
 2. Calcula **media, mediana, moda, varianza, desviación estándar, rango, Q1 y Q3.**
 3. Compara si tu media y mediana están cerca o muy diferentes (eso te dirá si hay outliers).
+
+## Detección de Outliers.
+### ¿Qué es un outlier?
+Un outlier es un valor que **se aleja significativamente del resto de los datos**.
+* Puede deberse a un **error de registro** (ejemplo: poner 10,000 en lugar de 100).
+* O puede ser un **datos real pero atípico** (ejemplo: un cliente que gasta muchísimo más que el promedio).
+Los outliers son importantes porque:
+* **Distorsionan medidas** como la media y la desviación estándar.
+* pueden ser **indicadores de fraude, fallos o fenómenos especiales**.
+* En modelos de machine learning, pueden **afectar el rendimiento**.
+
+### Métodos para detectar outliers
+1. Método del rango intercuartílico (IQR):
+   * Calcular: 
+        $$IQR=Q3-Q1$$
+   * Umbrales:
+        - Límite inferior = Q1 - 1.5 x IQR
+        - Límite superior = Q3 + 1.5 x IQR
+   * Valores fuera de ese rango = outliers.
+   * Muy usado en **boxplot**.
+2. Método de la desviación estándar:
+   * Calcular media y desviación estándar (σ).
+   * Si un dato está más de **2σ o 3σ de la media**, puede considerarse un outlier.
+3. Métodos visuales:
+   * **Boxplot** -> detecta valores extremos fácilmente.
+   * **Scatterplot** -> ayuda a ver puntos alejados de la tendencia general.
+   * **Histogramas** -> muestran concentraciones de datos y valores raros.
+
+### Ejemplo práctico en Python
+Tomemos los mismos datos de gastos:
+```
+import numpy as np
+import pandas as pd
+
+gastos = [200, 220, 250, 300, 310, 320, 500, 520, 1000, 1500]
+df = pd.DataFrame(gastos, columns=["Gasto"])
+
+# --- Método IQR ---
+Q1 = df['Gasto'].quantile(0.25)
+Q3 = df['Gasto'].quantile(0.75)
+IQR = Q3 - Q1
+
+limite_inferior = Q1 - 1.5 * IQR
+limite_superior = Q3 + 1.5 * IQR
+
+outliers_iqr = df[(df['Gasto] < limite_inferior) | (df['Gasto] > limite_superior)]
+
+# --- Método Desviación Estándar ---
+media = df['Gasto'].mean()
+desviacion = df['Gasto'].std()
+
+outliers_std = df[(df['Gasto]< media - 3*desviacion) | (df['Gasto'] > media + 3*desviacion)]
+
+(outliers_iqr, outliers_std)
+```
+Resultado esperado:
+* Con **IQR** -> detecta `1000` y `1500` como outliers.
+* Con **Desviación estándar** -> probablemente solo `1500`, porque `1000` está dentro de 3σ.
+
+### Mini - Práctica
+1. Genera una lista de **20 valores aleatorios entre 100 y 500**, y agrégale manualmente un valor muy alto (ej: 2000).
+2. Detecta el outlier usando:
+   * Método IQR.
+   * Método de desviación estándar.
+3. Compara si ambos métodos detectan el mismo valor.
